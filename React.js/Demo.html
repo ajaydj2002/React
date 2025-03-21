@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="Event.js"></script>
+    <input type="button" value="Click" onclick="fun1()">
+    <img src="Iphone.jpg" width="200px" onclick="alert('Iphone');alert('Price=80000')"/>
+    <img src="Iphone.jpg" width="200px" onclick="src='Laptop.jpg'" onmouseover="src='smile.jpg'" onmouseout="src='Iphone.jpg'"/>
+    <img src="Laptop.jpg" width="200px" onmouseover="this.src='smile.jpg'"/>
+    <input type="button" value="Click Me" onmouseover="this.value='Dont Click Me'" onmouseout="value='Click Me'"/>
+</body>
+</html>
